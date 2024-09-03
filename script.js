@@ -1,6 +1,6 @@
 var botonEncriptar = document.querySelector(".btn-encriptar");
 var botonDesencriptar = document.querySelector(".btn-desencriptar");
-var munieco = document.querySelector(".contenedormunieco");
+var amber = document.querySelector(".amber");
 var contenedor = document.querySelector(".contenedor-parrafo");
 var resultado = document.querySelector(".texto-resultado");
 
@@ -26,7 +26,7 @@ function recuperarTexto(){
 }
 
 function ocultarAdelante(){
-    munieco.classList.add("ocultar");
+    amber.classList.add("ocultar");
     contenedor.classList.add("ocultar");
 }
 
