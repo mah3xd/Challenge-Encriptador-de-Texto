@@ -22,14 +22,14 @@ header{
 
 .hutao{
     img {
-        max-width: 330px;
-      }
-    width: 100px;
-    height:50px;
-    padding-top: 300px;
+        max-width: 464px;
+    }
+    padding-top: 150px;
     padding-left: 364px;
 
 }
+
+
 main{
     position: absolute;
     width: 100%;
