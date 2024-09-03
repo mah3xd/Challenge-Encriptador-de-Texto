@@ -20,6 +20,16 @@ header{
     padding-left: 40px;
 }
 
+.hutao{
+    img {
+        max-width: 330px;
+      }
+    width: 100px;
+    height:50px;
+    padding-top: 300px;
+    padding-left: 364px;
+
+}
 main{
     position: absolute;
     width: 100%;
