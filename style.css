@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #f4f4fc;
+    background-color: #4d4d70;
 }
 
 header{
@@ -51,9 +51,11 @@ main{
     width: 80%;
     height: 100%;
     border: none;
-    background-color: #f4f4fc;
+    background-color: #57578b;
     cursor: pointer;
-    color: #0A3871;
+    color: #051830;
+    box-sizing: border-box;
+    border-radius: 32px;
     font-size: 32px;
     font-weight: 400px;
     font-family: 'Inter', sans-serif;
@@ -61,6 +63,8 @@ main{
 
 .cajatexto::placeholder{
     color: #0A3871;
+    padding-left: 20px;
+    padding-top: 25px;
 }
 
 .alerta{
@@ -113,7 +117,7 @@ main{
     height: 840px;
     right: 325px;
     padding-right: 20px;
-    background-color: #ffffff;
+    background-color: #ac72a8;
     box-sizing: border-box;
     border-radius: 32px;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.50);
