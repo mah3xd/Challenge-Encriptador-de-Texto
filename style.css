@@ -13,6 +13,17 @@ header{
     height: 70px;
 }
 
+.espia{
+    img {
+        max-width: 400px;
+    }
+    padding-left: 230px;
+    position: absolute;
+    top: -275px;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+
 .logo{
     width: 100px;
     height: 50px;
@@ -24,10 +35,13 @@ header{
     img {
         max-width: 370px;
     }
-    padding-top: 10px;
+
     padding-left: 355px;
 
+
 }
+
+
 
 
 main{
@@ -39,9 +53,9 @@ main{
 }
 
 .contenedorcajatexto{
-    position: absolute;
+    position: relative;
     left: 200px;
-    top: 100px;
+    top: 150px;
     padding-left: 100px;
     width: 1080px;
     height: 600px;
