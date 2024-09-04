@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #4d4d70;
+    background-color: #1E1516;
 }
 
 header{
@@ -62,10 +62,12 @@ main{
 }
 
 .cajatexto{
+    resize: none;
+    padding: 20px;
     width: 80%;
     height: 100%;
     border: none;
-    background-color: #57578b;
+    background-color: #CCAF83;
     cursor: pointer;
     color: #051830;
     box-sizing: border-box;
@@ -86,7 +88,7 @@ main{
     top: 750px;
     left: 370px;
     display: flex;
-    color: #495057;
+    color: #CCAF83;
 }
 
 .contenedor-botones{
@@ -131,7 +133,7 @@ main{
     height: 840px;
     right: 325px;
     padding-right: 20px;
-    background-color: #ac72a8;
+    background-color: #943934;
     box-sizing: border-box;
     border-radius: 32px;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.50);
