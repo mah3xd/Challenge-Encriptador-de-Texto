@@ -14,6 +14,14 @@ function encriptar(){
     resultado.textContent = encriptarTexto(cajatexto);
 }
 
+const btnCopiar = document.querySelector(".btn-copiar");
+btnCopiar.addEventListener("click", copiar = () => {
+    var contenido = document.querySelector(".texto-resultado").textContent;
+    navigator.clipboard.writeText(contenido);
+    alert("Texto copiado al portapapeles chupapi, ya no tienes que escribirlo a manoBv!"); // Esta es la línea que necesitas añadir
+});
+
+
 function desencriptar(){
     ocultarAdelante();
     var cajatexto = recuperarTexto()
@@ -93,10 +101,3 @@ function desencriptarTexto(mensaje){
     return textoFinal;
 
 }
-
-const btnCopiar = document.querySelector(".btn-copiar");
-    btnCopiar.addEventListener("click", copiar = () => {
-    var contenido = document.querySelector(".texto-resultado").textContent;
-    navigator.clipboard.writeText(contenido);
-    console.log("hola");
-});
