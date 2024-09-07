@@ -34,11 +34,15 @@ header{
 .hutao{
     img {
         max-width: 370px;
+    }    padding-left: 355px;
+}
+
+.mayushi{
+    img {
+        max-width: 300px;
     }
-
-    padding-left: 355px;
-
-
+    position: absolute;
+    padding-top: 41%;
 }
 
 
@@ -51,6 +55,8 @@ main{
     display: flex;
     justify-content: space-between;
 }
+
+
 
 .contenedorcajatexto{
     position: relative;
@@ -150,6 +156,7 @@ main{
     padding-top: 50px;
 }
 
+
 .contenedor-parrafo{
     position: absolute;
     box-sizing: border-box;
@@ -213,6 +220,7 @@ main{
     top: 50px;
     right: 4px;
 }
+
 
 .ocultar{
     display: none;
