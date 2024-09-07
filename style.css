@@ -42,7 +42,16 @@ header{
         max-width: 300px;
     }
     position: absolute;
-    padding-top: 41%;
+    padding-top: 42%;
+}
+
+.kurisu{
+    img{
+        max-width: 478px;
+    }
+    position: absolute;
+    padding-left: 380px;
+    padding-top: 382px;
 }
 
 
