@@ -56,6 +56,16 @@ header{
     z-index: 1;
 }
 
+.bunny{
+    img{
+        max-width: 210px;
+    }
+    position: absolute;
+    padding-left: 250px;
+    padding-top: 428px;
+    z-index: 1;
+}
+
 /* Estilo del modal */
 .modal {
     display: none; /* Ocultar por defecto */
