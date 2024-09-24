@@ -48,13 +48,24 @@ header{
 
 .kurisu{
     img{
-        max-width: 478px;
+        max-width: 320px;
     }
     position: absolute;
-    padding-left: 380px;
-    padding-top: 382px;
+    padding-left: 630px;
+    padding-top: 443px;
     z-index: 1;
 }
+
+.kuriia{
+    img{
+        max-width: 221px;
+    }
+    position: absolute;
+    padding-left: 485px;
+    padding-top: 375px;
+    z-index: 1;
+}
+
 
 .bunny{
     img{
@@ -257,11 +268,12 @@ main{
     height: 450px;
     padding: 0;
     box-sizing: border-box;
-    margin-left: 25px;
+    margin-left: 50px;
+    word-wrap: break-word;
 }
 
 .contenedor-resultado p{
-    color: #495057;
+    color: #182939;
     font-size: 25px;
 }
 
