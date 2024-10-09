@@ -48,11 +48,11 @@ header{
 
 .kurisu{
     img{
-        max-width: 173px;
+        max-width: 300px;
     }
     position: absolute;
-    padding-left: 154px;
-    padding-top: 500px;
+    padding-left: 294px;
+    padding-top: 451px;
     z-index: 1;
 }
 
@@ -66,14 +66,24 @@ header{
     z-index: 1;
 }
 
+.pet{
+    img{
+        max-width: 170px;
+    }
+    position: absolute;
+    padding-left: 190px;
+    padding-top: 440px;
+    z-index: 1;
+}
+
 
 .bunny{
     img{
-        max-width: 210px;
+        max-width: 221px;
     }
     position: absolute;
-    padding-left: 250px;
-    padding-top: 428px;
+    padding-left: 630px;
+    padding-top: 420px;
     z-index: 1;
 }
 
@@ -300,6 +310,7 @@ main{
     position: relative;
     top: 50px;
     right: 4px;
+    z-index: 2;
 }
 
 
