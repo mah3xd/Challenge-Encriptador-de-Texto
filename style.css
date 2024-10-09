@@ -39,7 +39,7 @@ header{
 
 .mayushi{
     img {
-        max-width: 300px;
+        max-width: 301px;
     }
     position: absolute;
     padding-top: 42%;
@@ -48,11 +48,11 @@ header{
 
 .kurisu{
     img{
-        max-width: 320px;
+        max-width: 173px;
     }
     position: absolute;
-    padding-left: 630px;
-    padding-top: 443px;
+    padding-left: 154px;
+    padding-top: 500px;
     z-index: 1;
 }
 
@@ -61,7 +61,7 @@ header{
         max-width: 221px;
     }
     position: absolute;
-    padding-left: 485px;
+    padding-left: 490px;
     padding-top: 375px;
     z-index: 1;
 }
